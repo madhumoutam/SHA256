@@ -168,7 +168,7 @@ int main() {
     } else if (choice == 2) {
         // User wants to provide a file path
         std::string filePath;
-        std::cout << "Enter the file path (default: /input.txt Recomended: try to give absolute file path): ";
+        std::cout << "Enter the file path input.txt or try to give absolute file path): ";
         std::cin >> filePath;
 
         // Use the default path if not provided
@@ -201,4 +201,3 @@ int main() {
 
     return 0;
 }
-
