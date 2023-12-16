@@ -1,0 +1,8 @@
+g++ main.cpp -o sha256
+ubuntu@ip-172-31-7-14:~/git/SHA256$ ./sha256
+Choose an option:
+1. Enter 1 to give simple message
+2. Enter 2 to give file path (default: input.txt)
+2
+Enter the file path input.txt or try to give absolute file path): input.txt
+SHA256 Hash: 8d202adf39c3e88510a591cbe1cbd96708e3237140060c0768f2577f9d81d3ad
